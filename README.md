@@ -57,7 +57,7 @@ This pipeline was designed to simulate real-world vehicle tracking data and proc
 - **Programming Languages**: Python (3.8+)  
 - **Libraries**:  
   - Data: `pandas`, `numpy`, `Sk-learn`, `Pyspark`  
-  - AWS: `boto3`, `Athena`, `AWS Glue`, 'S3', `Kinesis`, `Lambda`, `SageMaker`, `IAM`  
+  - AWS: `boto3`, `Athena`, `AWS Glue`, `S3`, `Kinesis`, `Lambda`, `SageMaker`, `IAM`  
   - ML: `scikit-learn`, `xgboost`, `LinearRegression`, `Random Forest`, `SVR`  
   - Visualization: `matplotlib`, `seaborn`
 
