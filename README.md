@@ -1,6 +1,5 @@
 # 🚗 Real-time Vehicle Data Analytics Pipeline On AWS From Streaming To ML Insights
 
-![Architecture Diagram](data/Diagram.png)
 
 This repository contains a complete, production-ready data pipeline for ingesting, transforming, analyzing, and modeling vehicle tracking data using **AWS services** and **Python-based tools**. The project demonstrates real-time data engineering and machine learning capabilities in the cloud.
 
@@ -36,7 +35,7 @@ This pipeline was designed to simulate real-world vehicle tracking data and proc
 
 ## 📊 Architecture Diagram
 
-![Architecture](Diagram.png)
+![Architecture Diagram](data/Diagram.png)
 
 ---
 
