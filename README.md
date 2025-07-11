@@ -1,7 +1,6 @@
-# 🚗 Real-time Vehicle Data Analytics Pipeline On AWSFrom Streaming To ML Insights
+# 🚗 Real-time Vehicle Data Analytics Pipeline On AWS From Streaming To ML Insights
 
-![Uploading image.png…]()
-
+![Architecture Diagram](data/Diagram.png)
 
 This repository contains a complete, production-ready data pipeline for ingesting, transforming, analyzing, and modeling vehicle tracking data using **AWS services** and **Python-based tools**. The project demonstrates real-time data engineering and machine learning capabilities in the cloud.
 
@@ -57,12 +56,10 @@ This pipeline was designed to simulate real-world vehicle tracking data and proc
 - **AWS Services**: Kinesis, S3, Lambda, Glue, Glue Crawler, Athena, SageMaker  
 - **Programming Languages**: Python (3.8+)  
 - **Libraries**:  
-  - Data: `pandas`, `numpy`, 'Sk-learn', `PysPark`  
-  - AWS: `boto3`, `Athena`, `AWS Glue`, 'S3', 'Kinesis', 'Lambda', 'SageMaker', 'IAM'  
-  - ML: `scikit-learn`, `xgboost`  
+  - Data: `pandas`, `numpy`, `Sk-learn`, `Pyspark`  
+  - AWS: `boto3`, `Athena`, `AWS Glue`, 'S3', `Kinesis`, `Lambda`, `SageMaker`, `IAM`  
+  - ML: `scikit-learn`, `xgboost`, `LinearRegression`, `Random Forest`, `SVR`  
   - Visualization: `matplotlib`, `seaborn`
-
----
 
 
 ---
@@ -124,17 +121,4 @@ The `athena_connection.py` script allows querying the S3-structured data via Ath
 | Isolation Forest    | Tree-based method                           | 1404      | 5.00%     |
 | Local Outlier Factor| Density-based (local density comparisons)   | 1404      | 5.00%     |
 | Consensus Approach  | Agreement across methods                    | 383       | 1.36%     |
-
----
-
-## 🧪 Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/vehicle-data-pipeline.git
-cd vehicle-data-pipeline
-
-## 📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for full details.
 
