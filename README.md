@@ -15,8 +15,7 @@ This repository contains a complete, production-ready data pipeline for ingestin
 - [Pipeline Components](#pipeline-components)
 - [Setup Instructions](#setup-instructions)
 - [Results Summary](#results-summary)
-- [Usage Examples](#usage-examples)
-- [License](#license)
+
 
 ---
 
